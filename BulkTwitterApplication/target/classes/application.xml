@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+					      http://www.springframework.org/schema/beans/spring-beans.xsd  
+					      http://www.springframework.org/schema/context 
+					      http://www.springframework.org/schema/context/spring-context.xsd  
+					      http://www.springframework.org/schema/data/mongo
+          				  http://www.springframework.org/schema/data/mongo/spring-mongo-1.7.xsd
+          				  http://www.springframework.org/schema/util 
+            			  http://www.springframework.org/schema/util/spring-util.xsd">
+	<!-- Spring context configuration -->
+	<context:annotation-config />
+
+	<!--Package scan -->
+	<context:component-scan base-package="com.anamaneni" />
+
+	<!-- Loading DB properties file 
+	<context:property-placeholder
+		location="file:${user.home}/clm_batch/config/database.properties"
+		order="1" ignore-unresolvable="true" /> -->
+
+	<!--Spring batch with quartz start -->
+	<bean id="startProcess" class="com.anamaneni.bulk.twitter.StartProcess"></bean>
+
+	<bean id="taskJobDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="startProcess" />
+		<property name="targetMethod" value="startProcessingRequest" />
+	</bean>
+
+	<bean id="simpleTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerBean">
+		<property name="jobDetail" ref="taskJobDetail" />
+		<property name="repeatInterval" value="50000" />
+		<property name="startDelay" value="10000" />
+	</bean>
+
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="jobDetails">
+			<list>
+				<ref bean="taskJobDetail" />
+			</list>
+		</property>
+		<property name="triggers">
+			<list>
+				<ref bean="simpleTrigger" />
+			</list>
+		</property>
+	</bean>
+	<!-- Spring batch with quartz end -->
+
+	<!-- hikarCP configuration start
+	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+		<property name="poolName" value="BO_JAVA_BULK_POOL" />
+		<property name="registerMbeans" value="true"></property>
+		<property name="allowPoolSuspension" value="true"></property>
+		<property name="dataSourceClassName" value="${clmrdbms.driverClassName}" />
+		<property name="maximumPoolSize" value="${clmrdbms.maximumPoolSize}" />
+		<property name="idleTimeout" value="${clmrdbms.idleTimeout}" />
+		<property name="minimumIdle" value="${clmrdbms.minimumIdle}"></property>
+		<property name="maxLifetime" value="${clmrdbms.minimumIdle}"></property>
+		<property name="dataSourceProperties">
+			<props>
+				<prop key="url">${clmrdbms.url}</prop>
+				<prop key="user">${clmrdbms.username}</prop>
+				<prop key="password">${clmrdbms.password}</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="CBSDataSource" class="com.zaxxer.hikari.HikariDataSource"
+		destroy-method="close">
+		<constructor-arg ref="hikariConfig" />
+	</bean>
+	hikarCP configuration End
+
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="CBSDataSource"></property>
+	</bean> -->
+
+</beans>
