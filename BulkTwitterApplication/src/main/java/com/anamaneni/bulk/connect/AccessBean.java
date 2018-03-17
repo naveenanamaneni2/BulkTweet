@@ -27,7 +27,9 @@ public class AccessBean implements Serializable {
 		this.accessToken = accessTokenTest;
 		this.accessTokenSecret = accessTokenSecret;
 	}
-
+	public AccessBean() {
+	}
+	
 	public String getTwitterId() {
 		return twitterId;
 	}

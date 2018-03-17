@@ -1,0 +1,155 @@
+2018-03-16 08:06:27 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:06:27 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:06:27 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:07:44 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:07:44 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:07:44 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:09:43 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:09:43 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:09:43 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:09:43 INFO  Class:73 - retweetBeanConstruction Construction Start
+ 2018-03-16 08:14:42 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:14:42 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:14:42 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:16:40 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:16:40 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:16:40 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:16:43 INFO  Class:56 - tweetBean Construction Start
+ 2018-03-16 08:16:43 INFO  Class:66 - tweetBean Construction Ends
+ 2018-03-16 08:16:52 INFO  Class:36 - WorkerThread Started .... call()... Started
+ 2018-03-16 08:16:52 INFO  Class:37 - Thread Name pool-1-thread-1 Thread Group : java.lang.ThreadGroup[name=main,maxpri=10]
+ 2018-03-16 08:16:52 INFO  Class:50 - updateTweet Starts...
+ 2018-03-16 08:16:53 INFO  Class:36 - WorkerThread Started .... call()... Started
+ 2018-03-16 08:16:53 INFO  Class:37 - Thread Name pool-1-thread-2 Thread Group : java.lang.ThreadGroup[name=main,maxpri=10]
+ 2018-03-16 08:16:53 INFO  Class:50 - updateTweet Starts...
+ 2018-03-16 08:16:56 ERROR Class:72 - Exception Occured While Authenticating User
+ 2018-03-16 08:16:56 INFO  Class:77 - updateTweet Ends...
+ 2018-03-16 08:16:56 INFO  Class:39 - WorkerThread Started .... call()... Ends
+ 2018-03-16 08:16:56 ERROR Class:72 - Exception Occured While Authenticating User
+ 2018-03-16 08:16:56 INFO  Class:77 - updateTweet Ends...
+ 2018-03-16 08:16:56 INFO  Class:39 - WorkerThread Started .... call()... Ends
+ 2018-03-16 08:17:39 INFO  Class:73 - retweetBeanConstruction Construction Start
+ 2018-03-16 08:17:46 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:17:46 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:17:46 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:17:46 INFO  Class:56 - tweetBean Construction Start
+ 2018-03-16 08:17:46 INFO  Class:66 - tweetBean Construction Ends
+ 2018-03-16 08:17:46 INFO  Class:36 - WorkerThread Started .... call()... Started
+ 2018-03-16 08:17:46 INFO  Class:36 - WorkerThread Started .... call()... Started
+ 2018-03-16 08:17:46 INFO  Class:37 - Thread Name pool-2-thread-2 Thread Group : java.lang.ThreadGroup[name=main,maxpri=10]
+ 2018-03-16 08:17:46 INFO  Class:50 - updateTweet Starts...
+ 2018-03-16 08:17:46 INFO  Class:37 - Thread Name pool-2-thread-1 Thread Group : java.lang.ThreadGroup[name=main,maxpri=10]
+ 2018-03-16 08:17:46 INFO  Class:50 - updateTweet Starts...
+ 2018-03-16 08:17:46 ERROR Class:72 - Exception Occured While Authenticating User
+ 2018-03-16 08:17:46 INFO  Class:77 - updateTweet Ends...
+ 2018-03-16 08:17:46 INFO  Class:39 - WorkerThread Started .... call()... Ends
+ 2018-03-16 08:17:46 ERROR Class:72 - Exception Occured While Authenticating User
+ 2018-03-16 08:17:46 INFO  Class:77 - updateTweet Ends...
+ 2018-03-16 08:17:46 INFO  Class:39 - WorkerThread Started .... call()... Ends
+ 2018-03-16 08:17:46 INFO  Class:73 - retweetBeanConstruction Construction Start
+ 2018-03-16 08:19:38 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:19:38 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:19:38 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:19:38 INFO  Class:56 - tweetBean Construction Start
+ 2018-03-16 08:19:38 INFO  Class:66 - tweetBean Construction Ends
+ 2018-03-16 08:19:38 INFO  Class:36 - WorkerThread Started .... call()... Started
+ 2018-03-16 08:19:38 INFO  Class:36 - WorkerThread Started .... call()... Started
+ 2018-03-16 08:19:38 INFO  Class:37 - Thread Name pool-1-thread-1 Thread Group : java.lang.ThreadGroup[name=main,maxpri=10]
+ 2018-03-16 08:19:38 INFO  Class:37 - Thread Name pool-1-thread-2 Thread Group : java.lang.ThreadGroup[name=main,maxpri=10]
+ 2018-03-16 08:19:38 INFO  Class:50 - updateTweet Starts...
+ 2018-03-16 08:19:38 INFO  Class:50 - updateTweet Starts...
+ 2018-03-16 08:19:40 INFO  Class:77 - updateTweet Ends...
+ 2018-03-16 08:19:40 INFO  Class:39 - WorkerThread Started .... call()... Ends
+ 2018-03-16 08:19:40 INFO  Class:77 - updateTweet Ends...
+ 2018-03-16 08:19:40 INFO  Class:39 - WorkerThread Started .... call()... Ends
+ 2018-03-16 08:19:40 INFO  Class:73 - retweetBeanConstruction Construction Start
+ 2018-03-16 08:26:24 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:26:24 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:26:24 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:26:24 INFO  Class:56 - tweetBean Construction Start
+ 2018-03-16 08:26:24 INFO  Class:66 - tweetBean Construction Ends
+ 2018-03-16 08:26:24 INFO  Class:36 - WorkerThread Started .... call()... Started
+ 2018-03-16 08:26:24 INFO  Class:36 - WorkerThread Started .... call()... Started
+ 2018-03-16 08:26:24 INFO  Class:37 - Thread Name pool-1-thread-1 Thread Group : java.lang.ThreadGroup[name=main,maxpri=10]
+ 2018-03-16 08:26:24 INFO  Class:37 - Thread Name pool-1-thread-2 Thread Group : java.lang.ThreadGroup[name=main,maxpri=10]
+ 2018-03-16 08:26:24 INFO  Class:50 - updateTweet Starts...
+ 2018-03-16 08:26:24 INFO  Class:50 - updateTweet Starts...
+ 2018-03-16 08:26:26 INFO  Class:77 - updateTweet Ends...
+ 2018-03-16 08:26:26 INFO  Class:39 - WorkerThread Started .... call()... Ends
+ 2018-03-16 08:26:26 INFO  Class:77 - updateTweet Ends...
+ 2018-03-16 08:26:26 INFO  Class:39 - WorkerThread Started .... call()... Ends
+ 2018-03-16 08:26:26 INFO  Class:73 - retweetBeanConstruction Construction Start
+ 2018-03-16 08:29:47 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:29:47 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:29:47 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:29:47 INFO  Class:56 - tweetBean Construction Start
+ 2018-03-16 08:29:47 INFO  Class:66 - tweetBean Construction Ends
+ 2018-03-16 08:29:47 INFO  Class:36 - WorkerThread Started .... call()... Started
+ 2018-03-16 08:29:47 INFO  Class:36 - WorkerThread Started .... call()... Started
+ 2018-03-16 08:29:47 INFO  Class:37 - Thread Name pool-1-thread-2 Thread Group : java.lang.ThreadGroup[name=main,maxpri=10]
+ 2018-03-16 08:29:47 INFO  Class:50 - updateTweet Starts...
+ 2018-03-16 08:29:47 INFO  Class:37 - Thread Name pool-1-thread-1 Thread Group : java.lang.ThreadGroup[name=main,maxpri=10]
+ 2018-03-16 08:29:47 INFO  Class:50 - updateTweet Starts...
+ 2018-03-16 08:29:48 INFO  Class:77 - updateTweet Ends...
+ 2018-03-16 08:29:48 INFO  Class:39 - WorkerThread Started .... call()... Ends
+ 2018-03-16 08:29:48 INFO  Class:77 - updateTweet Ends...
+ 2018-03-16 08:29:48 INFO  Class:39 - WorkerThread Started .... call()... Ends
+ 2018-03-16 08:29:48 INFO  Class:73 - retweetBeanConstruction Construction Start
+ 2018-03-16 08:39:26 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:39:26 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:39:26 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:40:27 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:40:27 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:40:27 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:40:35 INFO  Class:73 - retweetBeanConstruction Construction Start
+ 2018-03-16 08:43:54 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:43:54 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:43:54 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:43:54 INFO  Class:73 - retweetBeanConstruction Construction Start
+ 2018-03-16 08:46:10 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:46:10 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:46:10 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:46:10 INFO  Class:73 - retweetBeanConstruction Construction Start
+ 2018-03-16 08:47:00 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:47:00 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:47:00 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:47:00 INFO  Class:73 - retweetBeanConstruction Construction Start
+ 2018-03-16 08:47:50 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:47:50 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:47:50 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:47:50 INFO  Class:73 - retweetBeanConstruction Construction Start
+ 2018-03-16 08:52:55 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:52:55 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:52:55 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:52:55 INFO  Class:75 - retweetBeanConstruction Construction Start
+ 2018-03-16 08:52:55 ERROR Class:108 - Exception Occured While Constructing Bean..Error parsing CSV line: 1 values: [892816266, 974480316856352769, Success, Success, N, N]
+ 2018-03-16 08:59:25 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 08:59:25 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 08:59:25 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 08:59:25 INFO  Class:71 - retweetBeanConstruction Construction Start
+ 2018-03-16 08:59:25 INFO  Class:81 - TweetResult Loadded Successfully.. size : 2
+ 2018-03-16 08:59:25 INFO  Class:121 - retwettList.. Size : 1
+ 2018-03-16 08:59:25 INFO  Class:121 - retwettList.. Size : 1
+ 2018-03-16 08:59:25 INFO  Class:104 - retweetBeanConstruction Construction Ends
+ 2018-03-16 09:02:41 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 09:02:41 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 09:02:41 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 09:02:44 INFO  TwitterIdUtil:71 - retweetBeanConstruction Construction Start
+ 2018-03-16 09:03:00 INFO  TwitterIdUtil:81 - TweetResult Loadded Successfully.. size : 2
+ 2018-03-16 09:03:20 INFO  TwitterIdUtil:121 - retwettList.. Size : 1
+ 2018-03-16 09:03:51 INFO  TwitterIdUtil:121 - retwettList.. Size : 1
+ 2018-03-16 09:04:02 INFO  TwitterIdUtil:104 - retweetBeanConstruction Construction Ends
+ 2018-03-16 23:25:08 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 23:25:08 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 23:27:26 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 23:27:26 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 23:29:34 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 23:29:34 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 23:30:24 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 23:30:24 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 23:31:04 INFO  Class:29 - readingCSVFile .... Start
+ 2018-03-16 23:31:04 INFO  Class:35 - readingCSVFile .... AccessToken Bean Mapping
+ 2018-03-16 23:31:04 INFO  Class:48 - readingCSVFile .... Ends
+ 2018-03-16 23:31:04 INFO  TwitterIdUtil:73 - retweetBeanConstruction Construction Start
+ 2018-03-16 23:31:04 ERROR TwitterIdUtil:103 - Exception Occured While Constructing Bean..Index: 2, Size: 2
+ 

@@ -1,8 +1,0 @@
-com\anamaneni\bulk\util\TwitterIdUtil.class
-com\anamaneni\bulk\util\CSVUtil.class
-com\anamaneni\bulk\twitter\App.class
-com\anamaneni\bulk\util\UpdateStatus.class
-com\anamaneni\bulk\util\TweetApp.class
-com\anamaneni\bulk\connect\AccessBean.class
-com\anamaneni\bulk\util\RetweetUpdate.class
-com\anamaneni\bulk\connect\TweetBean.class
